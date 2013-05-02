@@ -1,4 +1,5 @@
-<?php /*
+<?php
+/*
 Plugin Name: Remove the Share Function
 Plugin URI: https://github.com/seandrickson/YOURLS-Remove-the-Share-Function
 Description: Remove the Share button and box that toggles the sharing options on the Admin page
