@@ -8,6 +8,10 @@ Author: Sean Hendrickson
 Author URI: https://github.com/seandrickson
 */
 
+// No direct call
+if( !defined( 'YOURLS_ABSPATH' ) ) die();
+
+
 // Dump the Share button...GET RID OF IT!!
 yourls_add_filter( 'table_add_row_action_array', 'sean_rmv_row_action_share' );
 function sean_rmv_row_action_share( $links ) {
